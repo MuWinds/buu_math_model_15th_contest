@@ -80,10 +80,10 @@ $$E_h^{} = 80H_h^{} + 50M_h^{} + 30L_h^{}$$
 计算绿色电力的使用率，方便后面的题目使用和对比：
 
 $$
-U_{h}=\left\lbrace\begin{array}{cc}
-\frac{\min \left(S_{h}, E_{h}\right)}{E_{h}} \times 100\ \% & E_{h}>0 \\
-0 & E_{h} \leq 0
-\end{array}\right.
+U_{h} = \begin{cases} 
+\dfrac{\min \left(S_{h}, E_{h}\right)}{E_{h}} \times 100\% & E_{h} > 0 \\[2mm] 
+0 & E_{h} \leq 0 
+\end{cases}
 $$
 
 最后计算出每小时的用电成本并且求出总和：
