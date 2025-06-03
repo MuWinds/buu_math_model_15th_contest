@@ -81,7 +81,7 @@ $$E_h^{} = 80H_h^{} + 50M_h^{} + 30L_h^{}$$
 
 $$
 U_{h}=\left\lbrace\begin{array}{cc}
-\frac{\min \left(S_{h}, E_{h}\right)}{E_{h}} \times 100 \% & E_{h}>0 \newline
+\frac{\min \left(S_{h}, E_{h}\right)}{E_{h}} \times 100 \% & E_{h}>0 \\
 0 & E_{h} \leq 0
 \end{array}\right.
 $$
